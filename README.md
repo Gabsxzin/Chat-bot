@@ -2,6 +2,9 @@
 
 Um chatbot desenvolvido em **Python** com interface gráfica utilizando **CustomTkinter**, criado para apresentar meu perfil profissional de forma interativa.
 
+<img width="1624" height="650" alt="image" src="https://github.com/user-attachments/assets/35d2c2c8-26e9-4aad-8c8d-2c43ca941188" />
+
+
 ## 📌 Sobre o Projeto
 
 Este projeto foi desenvolvido com o objetivo de criar um portfólio diferente dos modelos tradicionais. Através de uma interface simples e intuitiva, o usuário pode conhecer mais sobre minha trajetória acadêmica, habilidades técnicas, acessar meu currículo e visitar meu perfil no GitHub.
