@@ -3,7 +3,7 @@ from tkinter import filedialog
 from selenium import webdriver
 import customtkinter as CTk 
 import time
-import wget
+import wget # type: ignore
 
 class ChatBotApp:
     def __init__(self, master):
@@ -16,11 +16,19 @@ class ChatBotApp:
         self.send_button = CTk.CTkButton(master, text="Enviar", command=self.send_message) 
         self.send_button.pack()
         self.add_message('''                                            
-                                                        𝐰𝐞𝐥𝐜𝐨𝐦𝐞, 𝐡𝐨𝐰 𝐚𝐫𝐞 𝐲𝐨𝐮?
-                                                              𝐜𝐡𝐨𝐨𝐬𝐞 𝐚𝐧 𝐨𝐩𝐭𝐢𝐨𝐧 : 
-                                                    1-𝐀𝐛𝐨𝐮𝐭 𝐦𝐞       2-𝐜𝐮𝐫𝐫𝐢𝐜𝐮𝐥𝐮𝐦     
-                                             
-                                                    3-𝐌𝐲 𝐒𝐤𝐢𝐥𝐥𝐬      4-𝐆𝐢𝐭 𝐡𝐮𝐛 ''')
+╔══════════════════════════════════════╗
+║        Gabriel Natan Andrade         ║
+║     Computer Engineering Student     ║
+╚══════════════════════════════════════╝
+
+Welcome to my interactive portfolio!
+
+1 • About Me
+2 • Resume (CV)
+3 • Technical Skills
+4 • GitHub
+
+Type a number and press Enter. ''')
                         
 
     def send_message(self):
@@ -71,7 +79,6 @@ if __name__ == "__main__":
     CTk.set_default_color_theme('dark-blue')
     app = ChatBotApp(root)
     root.mainloop()
-
 
 
 
